@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 /*boxes and position*/
 
 .container {
@@ -77,8 +79,6 @@ footer {
 
 /*typography*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-
 *{
 
    font-family: 'Roboto', sans-serif;
@@ -150,6 +150,11 @@ p {
 }
 
 /*transition*/
+
+.button{
+
+   transition:opacity 0.5s ease;
+}
 
 .button:hover,
 .button:focus{
